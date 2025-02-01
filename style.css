@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#1B2C4F;
+    --btn-color:#FB281D;
+}
+body{
+   
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+/* utility classes */
+
+/* UC end */
+
+/* HeaderStart */
+header #topbar{
+    padding-top: 10px;
+}
+header #top-bar-txt p{
+    color: #1B2C4F;
+    padding-top: 4px;
+}
+header #buttons #Log{
+    background-color: #1B2C4F;
+    color: #fff;
+}
+header #buttons #live{
+    background-color:#FB281D ;
+    color: #fff;
+}
+header #royaLogoBar{
+    padding-block: 10px;
+}
+header #royaLogoBar img{
+    max-width: 50px;
+    margin-inline: 10px;
+}
+header #royaLogoBar h3{
+    color: #1B2C4F;
+    margin-top: 7px;
+}
+header #anchors{
+    margin-top: 18px;
+}
+header #anchors a{
+    text-decoration: none;
+    color: #1B2C4F;
+    margin-inline: 1px;
+}
+header hr{
+    margin-block: -3px;
+}
+header #navbar{
+    padding-top: 7px;
+}
+header #navbar ul li a{
+    color: #1B2C4F;
+    text-decoration: none;
+    font-weight: 500;
+    padding-block: 9px;
+}
+header #navbar ul li :hover{
+    border-bottom: solid 5px;
+    border-color: #1B2C4F;
+}
+/* end */
+
+/* Main Start */
+#body{
+    margin-block-start: 3px;
+    background-color: #F0F0F0;
+}
+#body #hero{
+    padding-top: 1px;
+}
+#body #updated-div  {
+    padding: 10px;
+    margin-left: 10px;
+    background-color:#fff ;
+}
+#body #updatedtxt{
+    background-color: #3594F3;
+    color: #fff;
+    padding: 5px;
+    font-size:10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+#body #timetxt{
+    color: #7F7D8B;
+    font-size: 10px;
+}
+#body #updated-div hr{
+   margin-top:5px;
+}
+#body #updated-div img{
+    max-width: 135px;
+}
+
+#body #updated-div a{
+    text-decoration: none;
+    color: #000;
+}
+#body #updated-div a:hover{
+    text-decoration: underline;
+}
+#body #updated-div #commentsbtns{
+    margin-top: -12px;
+}
+#body #updated-div #commentsbtns a{
+    margin-inline: 5px;
+    color: #D6D6D6;
+}
+/* Main End */
